@@ -1,22 +1,20 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>{{titulo}}</title>
+		<title>El Cubo de Rubik</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="/assets/css/main.css" />
-		<script src="/assets/js/jquery.min.js"></script>
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body>
 
 		<!-- Header -->
 			{{> header}}
-
 		<!-- Nav -->
 			{{> navbar}}
 
-		<!-- Banner Principal CORREGIDO -->
-			<section id="banner" class="bg-img" data-bg="/images/banner.jpg">
+		<!-- Banner Principal -->
+			<section id="banner" data-bg="/images/banner.jpg">
 				<div class="inner">
 					<header>
 						<h1>El Cubo de Rubik</h1>
@@ -26,73 +24,79 @@
 			</section>
 
 		<!-- Sección 1: Qué es -->
-			<section id="one" class="wrapper post bg-img" data-bg="/images/banner2.jpg">
+			<section id="one" class="wrapper post" data-bg="/images/banner2.jpg">
 				<div class="inner">
 					<article class="box">
 						<header>
 							<h2>¿Qué es el Cubo de Rubik?</h2>
-							<p>El rompecabezas más famoso del mundo</p>
+							<p>El rompecabezas tridimensional más famoso</p>
 						</header>
 						<div class="content">
-							<p>Inventado en 1974 por Ernő Rubik, este puzzle 3D cuenta con:
-								<ul>
-									<li>6 caras con 9 colores cada una</li>
-									<li>43 trillones de combinaciones posibles</li>
-									<li>Mecanismo de eje central patentado</li>
-								</ul>
-							<a href="https://rubiks.com/" target="_blank" class="button alt">Sitio oficial</a>
+							<p>Inventado en 1974 por el escultor húngaro Ernő Rubik, este puzzle mecánico cuenta con:</p>
+							<ul>
+								<li>6 caras con 9 colores cada una</li>
+								<li>43 trillones de combinaciones posibles</li>
+								<li>Mecanismo de eje central esférico</li>
+							</ul>
 						</div>
+						<footer>
+							<a href="https://rubiks.com/" target="_blank" class="button alt">Sitio oficial</a>
+						</footer>
 					</article>
 				</div>
 				<a href="#two" class="more">Continuar</a>
 			</section>
 
 		<!-- Sección 2: Historia -->
-			<section id="two" class="wrapper post bg-img" data-bg="/images/banner5.jpg">
+			<section id="two" class="wrapper post" data-bg="/images/banner5.jpg">
 				<div class="inner">
 					<article class="box">
 						<header>
-							<h2>Historia y creación</h2>
-							<p>De herramienta educativa a fenómeno global</p>
+							<h2>Historia y evolución</h2>
+							<p>De herramienta educativa a icono global</p>
 						</header>
 						<div class="content">
-							<p>Datos clave de su evolución:
-								<ul>
-									<li>1974: Primera versión en madera</li>
-									<li>1980: Lanzamiento internacional</li>
-									<li>2003: Creación de la WCA (World Cube Association)</li>
-								</ul>
-							<a href="https://es.wikipedia.org/wiki/Cubo_de_Rubik" target="_blank" class="button alt">Historia completa</a>
+							<p>Hitos importantes en su desarrollo:</p>
+							<ul>
+								<li>1974: Primer prototipo en madera</li>
+								<li>1980: Lanzamiento mundial como juguete</li>
+								<li>2003: Fundación de la WCA (Asociación Mundial del Cubo)</li>
+							</ul>
 						</div>
+						<footer>
+							<a href="https://es.wikipedia.org/wiki/Cubo_de_Rubik" target="_blank" class="button alt">Historia completa</a>
+						</footer>
 					</article>
 				</div>
 				<a href="#three" class="more">Siguiente</a>
 			</section>
 
-		<!-- Sección 3: Resolución CORREGIDO -->
-			<section id="three" class="wrapper post bg-img" data-bg="/images/banner4.jpg">
+		<!-- Sección 3: Resolución -->
+			<section id="three" class="wrapper post" data-bg="/images/banner4.jpg">
 				<div class="inner">
 					<article class="box">
 						<header>
 							<h2>Técnicas de resolución</h2>
-							<p>Domina el arte del speedcubing</p>
+							<p>El arte del speedcubing</p>
 						</header>
 						<div class="content">
-							<p>Métodos principales:
-								<ol>
-									<li>Método principiante (capa por capa)</li>
-									<li>CFOP (Método Fridrich)</li>
-									<li>Roux (resolución por bloques)</li>
-								</ol>
-							<a href="https://www.youtube.com/user/jpermcubing" target="_blank" class="button alt">Ver tutoriales</a>
+							<p>Métodos principales para resolverlo:</p>
+							<ol>
+								<li>Método principiante (por capas)</li>
+								<li>CFOP (Método Fridrich avanzado)</li>
+								<li>Método Roux (con bloques)</li>
+							</ol>
 						</div>
+						<footer>
+							<a href="https://www.youtube.com/user/jpermcubing" target="_blank" class="button alt">Ver tutoriales</a>
+						</footer>
 					</article>
 				</div>
 				<a href="#four" class="more">Más datos</a>
 			</section>
 
 		<!-- Sección 4: Curiosidades -->
-			<section id="four" class="wrapper post bg-img" data-bg="/images/banner3.jpg">
+			<section id="four" class="wrapper post" data-bg="/images/banner3.jpg">
 				<div class="inner">
 					<article class="box">
 						<header>
@@ -100,14 +104,15 @@
 							<p>Récords y curiosidades</p>
 						</header>
 						<div class="content">
-							<p>El mundo del cubo en números:
-								<ul>
-									<li>Récord mundial: 3.13 segundos</li>
-									<li>540 quintillones de permutaciones</li>
-									<li>+400 millones de unidades vendidas</li>
-								</ul>
-							<a href="https://www.worldcubeassociation.org/" target="_blank" class="button alt">Competiciones oficiales</a>
+							<ul>
+								<li>Récord mundial: 3.13 segundos (Max Park)</li>
+								<li>+400 millones de unidades vendidas</li>
+								<li>Variantes desde 2x2 hasta 33x33</li>
+							</ul>
 						</div>
+						<footer>
+							<a href="https://www.worldcubeassociation.org/" target="_blank" class="button alt">Competiciones oficiales</a>
+						</footer>
 					</article>
 				</div>
 			</section>
@@ -115,11 +120,14 @@
 		<!-- Footer -->
 			{{> footer}}
 
-		<!-- Scripts -->
-			<script src="/assets/js/jquery.scrolly.min.js"></script>
-			<script src="/assets/js/jquery.scrollex.min.js"></script>
-			<script src="/assets/js/skel.min.js"></script>
-			<script src="/assets/js/util.js"></script>
-			<script src="/assets/js/main.js"></script>
+		<!-- Script para imágenes -->
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+				document.querySelectorAll('[data-bg]').forEach(element => {
+					element.style.backgroundImage = `url('${element.getAttribute('data-bg')}')`;
+				});
+			});
+		</script>
+
 	</body>
 </html>
