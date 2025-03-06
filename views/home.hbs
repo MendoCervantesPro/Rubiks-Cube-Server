@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{{titulo}}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<script src="/assets/js/jquery.min.js"></script>
+	</head>
+	<body>
+
+		<!-- Header -->
+			{{> header}}
+
+		<!-- Nav -->
+			{{> navbar}}
+
+		<!-- Banner Principal CORREGIDO -->
+			<section id="banner" class="bg-img" data-bg="/images/banner.jpg">
+				<div class="inner">
+					<header>
+						<h1>El Cubo de Rubik</h1>
+					</header>
+				</div>
+				<a href="#one" class="more">Descubrir más</a>
+			</section>
+
+		<!-- Sección 1: Qué es -->
+			<section id="one" class="wrapper post bg-img" data-bg="/images/banner2.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>¿Qué es el Cubo de Rubik?</h2>
+							<p>El rompecabezas más famoso del mundo</p>
+						</header>
+						<div class="content">
+							<p>Inventado en 1974 por Ernő Rubik, este puzzle 3D cuenta con:
+								<ul>
+									<li>6 caras con 9 colores cada una</li>
+									<li>43 trillones de combinaciones posibles</li>
+									<li>Mecanismo de eje central patentado</li>
+								</ul>
+							<a href="https://rubiks.com/" target="_blank" class="button alt">Sitio oficial</a>
+						</div>
+					</article>
+				</div>
+				<a href="#two" class="more">Continuar</a>
+			</section>
+
+		<!-- Sección 2: Historia -->
+			<section id="two" class="wrapper post bg-img" data-bg="/images/banner5.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>Historia y creación</h2>
+							<p>De herramienta educativa a fenómeno global</p>
+						</header>
+						<div class="content">
+							<p>Datos clave de su evolución:
+								<ul>
+									<li>1974: Primera versión en madera</li>
+									<li>1980: Lanzamiento internacional</li>
+									<li>2003: Creación de la WCA (World Cube Association)</li>
+								</ul>
+							<a href="https://es.wikipedia.org/wiki/Cubo_de_Rubik" target="_blank" class="button alt">Historia completa</a>
+						</div>
+					</article>
+				</div>
+				<a href="#three" class="more">Siguiente</a>
+			</section>
+
+		<!-- Sección 3: Resolución CORREGIDO -->
+			<section id="three" class="wrapper post bg-img" data-bg="/images/banner4.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>Técnicas de resolución</h2>
+							<p>Domina el arte del speedcubing</p>
+						</header>
+						<div class="content">
+							<p>Métodos principales:
+								<ol>
+									<li>Método principiante (capa por capa)</li>
+									<li>CFOP (Método Fridrich)</li>
+									<li>Roux (resolución por bloques)</li>
+								</ol>
+							<a href="https://www.youtube.com/user/jpermcubing" target="_blank" class="button alt">Ver tutoriales</a>
+						</div>
+					</article>
+				</div>
+				<a href="#four" class="more">Más datos</a>
+			</section>
+
+		<!-- Sección 4: Curiosidades -->
+			<section id="four" class="wrapper post bg-img" data-bg="/images/banner3.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>Datos sorprendentes</h2>
+							<p>Récords y curiosidades</p>
+						</header>
+						<div class="content">
+							<p>El mundo del cubo en números:
+								<ul>
+									<li>Récord mundial: 3.13 segundos</li>
+									<li>540 quintillones de permutaciones</li>
+									<li>+400 millones de unidades vendidas</li>
+								</ul>
+							<a href="https://www.worldcubeassociation.org/" target="_blank" class="button alt">Competiciones oficiales</a>
+						</div>
+					</article>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			{{> footer}}
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.scrolly.min.js"></script>
+			<script src="/assets/js/jquery.scrollex.min.js"></script>
+			<script src="/assets/js/skel.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+	</body>
+</html>
